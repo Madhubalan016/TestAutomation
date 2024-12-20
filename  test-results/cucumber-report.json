@@ -1,0 +1,900 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-the-testing-website;validate-the-login-form",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Validate the login form",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on HomePage",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2635406330,
+              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://qa-practice.netlify.app/auth_ecommerce\", waiting until \"load\"\u001b[22m\n\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enter the email'admin@admin.com'",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user enter the password'admin123'",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user click the submit button",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should view the shopping cart",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 3669746,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SiteValidation",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-testing-website;validate-the-error-message-for-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Validate the error message for wrong credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "the user is on HomePage",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2785813,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user enter the email is'wrongemail'",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user enter the password is'wrongPass'",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user click the submit button",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should view the error message",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 3321708,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SiteValidation",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-testing-website;validate-the-error-message-for-wrong-credentials",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Validate the error message for wrong credentials",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "the user is on HomePage",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2012409,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user enter the email is'wrong@email.com'",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user enter the password is'adminPass'",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:48"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user click the submit button",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should view the error message",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:52"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 5244424,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SiteValidation",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-testing-website;user-purchase-the-products",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "user purchase the products",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "the user is on HomePage",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1298634,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "user enter the login credentials'admin@admin.com','admin123'",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:57"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the user click the submit button",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:34"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the user should be on the shopping page",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:62"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1271750,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SiteValidation",
+            "line": 1
+          },
+          {
+            "name": "@ShoppingCart",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-testing-website;validate-the-user-orders",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "validate the user orders",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "the user is on shopping page",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:68"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3834457,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:24:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:4:12)\n    at formValidation (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:20:31)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:69:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:68:39)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "the user try to buy a products through add to cart button",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:74"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "user verify the product name",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:82"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "user verify the product price",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:87"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "user verify the product Quantity",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:101"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "user should confirm the orders in the list of items",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:117"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 2462271,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SiteValidation",
+            "line": 1
+          },
+          {
+            "name": "@ProductsValidation",
+            "line": 38
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-testing-website;validate-the-remove-button",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "validate the Remove button",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "the user is on shopping page",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:68"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3767406,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:24:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:4:12)\n    at formValidation (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:20:31)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:69:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:68:39)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "the user after click the add to cart button",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:125"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "the user should view on the Remove button",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:136"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "the user click the Remove button",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:141"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "a product should Remove the list of items & its price should be decrease",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:150"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1399062,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SiteValidation",
+            "line": 1
+          },
+          {
+            "name": "@RemoveButtonValidation",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-testing-website;validate-the-checkbox",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "Validate the checkbox",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "the user is on HomePage",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2136870,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "the user try to validate the checkbox",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:228"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "the user click the checkbox",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:234"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "the user click the reset button",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:241"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "user should see the uncheck the checkbox",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:245"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1896371,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SiteValidation",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-testing-website;user-can-not-buy-same-product-again",
+        "keyword": "Scenario",
+        "line": 63,
+        "name": "user can not buy same product again",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 64,
+            "name": "the user is on shopping page",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:68"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1834333,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:24:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:4:12)\n    at formValidation (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:20:31)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:69:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:68:39)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "the user try to buy the same product",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:160"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "the user should view the alert message",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:166"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1146634,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SiteValidation",
+            "line": 1
+          },
+          {
+            "name": "@ValidAddToCartButton",
+            "line": 62
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-testing-website;user-try-to-proceed-checkout",
+        "keyword": "Scenario",
+        "line": 69,
+        "name": "User try to proceed checkout",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 70,
+            "name": "the user is on shopping page",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:68"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2083046,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:24:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:4:12)\n    at formValidation (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:20:31)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:69:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:68:39)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 71,
+            "name": "user buy the products",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:181"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "user try to proceed the checkout",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:187"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "user fill the credentials for checkout",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:199"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 74,
+            "name": "user should view the confirmation message",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:211"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 2457862,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SiteValidation",
+            "line": 1
+          },
+          {
+            "name": "@UserCredentialsValidation",
+            "line": 68
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-testing-website;user-try-to-logout",
+        "keyword": "Scenario",
+        "line": 77,
+        "name": "user try to Logout",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 78,
+            "name": "the user is on shopping page",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:68"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3341189,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:24:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:4:12)\n    at formValidation (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:20:31)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:69:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:68:39)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 79,
+            "name": "the user Logout from shopping page",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:217"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "the user should be on Login page",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:222"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1506611,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SiteValidation",
+            "line": 1
+          },
+          {
+            "name": "@LogoutValidation",
+            "line": 76
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-the-testing-website",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "validate the testing website",
+    "tags": [
+      {
+        "name": "@SiteValidation",
+        "line": 1
+      }
+    ],
+    "uri": "features/features/shoppingCart.feature"
+  }
+]

@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "module": "CommonJS",             // Use modern module syntax
+      "moduleResolution": "node",    // Use Node.js module resolution
+    //  "target": "ES6",               // Specify ECMAScript target
+      "outDir": "./dist",            // Specify output directory
+      "esModuleInterop": true,       // Allow importing CommonJS modules
+      "strict": true                 // Enable strict type-checking
+    },   // Exclude unnecessary files
+  }
+  
