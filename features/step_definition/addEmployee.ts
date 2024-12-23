@@ -5,11 +5,6 @@ import { empLoginLocator } from "../page_action/loginTest";
 import { addButton, employeeDeatils, saveButton, } from "../page_action/employeeInfo";
 import { maxCharacter, maxData } from "../provider/invalidData";
 
-// const textbox = pageFixture.page.locator('form').getByRole('textbox');
-//const dateField = pageFixture.page.getByPlaceholder('yyyy-dd-mm');
-// const selectField = pageFixture.page.getByText('-- Select --');
-// const textareaField = pageFixture.page.getByRole('textbox');
-// const addButtonField = pageFixture.page.getByRole('button', { name: ' Add' });
 
 Given('the Admin navigates to the PIM page', async () => {
   await empLoginLocator();

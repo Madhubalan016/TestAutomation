@@ -4,6 +4,3673 @@
     "elements": [
       {
         "description": "",
+        "id": "validate-the-employee-management-application;invalid-login",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Invalid login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user Navigates the Login Page",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4861504546
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user enter the wrong username is 'Admin123'",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1352460735
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enter the wrong password is 'wrong admin'",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16170903
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user click the login button",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2765176467
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user should view the Error message",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2009227376
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3155884637
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EmployeeManagement",
+            "line": 1
+          },
+          {
+            "name": "@InvalidLogin",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-employee-management-application;login-with-empty-data",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Login with empty Data",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user try to login with empty fields",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62478859
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should view required error message",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5366522
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "the user enters only username is 'Admin' for login",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54205179
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the user should view password required error message",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1127572
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "the user enters only password is 'admin123' for login",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:67"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65415403
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "the user should view username required error message",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1040066
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3132317348
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EmployeeManagement",
+            "line": 1
+          },
+          {
+            "name": "@LoginWithEmptyData",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-employee-management-application;valid-login",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Valid login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "user enter the username is 'Admin'",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7986909
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "user enter the wrong password is 'wrong admin'",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7477754
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "user click the login button",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3969081036
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "user should view the Error message",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2005659472
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "user enter the wrong username is 'Admin123'",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27860340
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "user enter the password is 'admin123'",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8407990
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "user click the login button",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2805718084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "user should view the Error message",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2004555896
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3148284244
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EmployeeManagement",
+            "line": 1
+          },
+          {
+            "name": "@BadCredentials",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-employee-management-application;valid-login",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Valid login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "user enter the username is 'Admin'",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7832994
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "user enter the password is 'admin123'",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5089936
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "user click the login button",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3305635503
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "user should be on HomePage",
+            "match": {
+              "location": "features/step_definition/employeeLogin.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1216573
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4390300475
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EmployeeManagement",
+            "line": 1
+          },
+          {
+            "name": "@LoginValidation",
+            "line": 46
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-the-employee-management-application",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Validate the Employee Management Application",
+    "tags": [
+      {
+        "name": "@EmployeeManagement",
+        "line": 1
+      }
+    ],
+    "uri": "features/features/EmployeeMangement.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-new-employee-and-verify-by-records;admin-creates-a-new-employee",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Admin creates a new employee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "the Admin navigates to the PIM page",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6631451885,
+              "error_message": "locator.fill: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Username' })\u001b[22m\n\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:20:67\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:14:53)\n    at fulfilled (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:5:58)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the Admin tries to add a new employee",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "enters the employee Details on the Add Employee page",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the Admin wants to create a username",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the Admin tries to save details without entering the name EmptyDetails",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:35"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the Admin should not be able to save the details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:40"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "fills in the employee's user details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the employee ID already exists",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:55"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the Admin should see an error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:61"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the Admin enters more than 10 characters in the Employee ID field",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:66"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the Admin should see a Maximum 10 character limit exceeded error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:71"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the Admin fills valid informations",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:76"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "clicks the Save button",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:81"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "the Admin is redirected to the main details filling page",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:86"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 4370108,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewEmployee",
+            "line": 1
+          },
+          {
+            "name": "@CreateNew",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-new-employee-and-verify-by-records;admin-fill-the-personal-details",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Admin fill the personal Details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "the Admin enters more than 30 characters in the Other ID field",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:94"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3499272,
+              "error_message": "locator.fill: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:95:75\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:94:72)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "the Admin should see a Maximum 30 character limit exceeded error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:99"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the Admin wants to upload the attachment file",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:108"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "choose the file more than 1MB",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the Admin should be see the file size exceed error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:118"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "the Admin uploads the image instead of jpg or png",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:123"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "the Admin should see the file type not allowed error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:128"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "the Admin enters valid personal details in the Personal Details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:133"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "saves the employee personal details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:148"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1181809,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewEmployee",
+            "line": 1
+          },
+          {
+            "name": "@PersonalDetails",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-new-employee-and-verify-by-records;admin-fills-the-contact-details",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "Admin fills the contact details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "the Admin wants to fill the contact details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:155"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 10267990,
+              "error_message": "locator.click: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:118:66\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:4:12)\n    at Object.empNaviagetTo (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:117:68)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:157:25\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:155:53)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "fills in the employee's contact details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:161"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "the Admin enters more than 70 characters in the AddressFields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:166"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "the Admin should see the Maximum 70 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:171"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the Admin enters more than 25 characters in the SpecifiedFields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:181"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "the Admin should see the Maximum 25 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:186"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "the Admin enters a string instead of a number in the phone number field",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:191"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "the Admin should see the 'Allows numbers and only + - / ( )' message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:196"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 55,
+            "name": "the Admin enters an invalid email ID",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:201"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "the Admin should see the Invalid email format error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:206"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "the Admin enters valid contact details in the contact details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:215"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "saves the employee contact details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:220"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 840577,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewEmployee",
+            "line": 1
+          },
+          {
+            "name": "@ContactDetails",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-new-employee-and-verify-by-records;admin-fills-the-emergency-contact-details",
+        "keyword": "Scenario",
+        "line": 89,
+        "name": "Admin fills the Emergency contact details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "the Admin wants to fill the Emergency contact details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:229"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 981965,
+              "error_message": "locator.click: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:118:66\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:4:12)\n    at Object.empNaviagetTo (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:117:68)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:230:25\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:229:63)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "fills in the employee's Emergency contact details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:234"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "the Admin enters more than 100 characters in the NameFields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:240"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "the Admin should see the Maximum 100 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:246"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "the Admin enters more than 30 characters in the specificFields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:251"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "the Admin should see the Maximum 30 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:257"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "the Admin tries save the Emergency contact details without Home TelePhone number",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:262"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "admin should see the At least one phone number is required error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:272"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 80,
+            "name": "the Admin enters string instead of a number in the phone number field",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:267"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "the Admin should see the 'Allows numbers and only + - / ( )' message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:196"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 83,
+            "name": "the Admin enters valid Emergency contact details in the Emergency contact details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:277"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "saves the employee Emergency contact details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:282"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 887736,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewEmployee",
+            "line": 1
+          },
+          {
+            "name": "@EmergencyContactDetails",
+            "line": 66
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-new-employee-and-verify-by-records;admin-fills-the-dependents-details",
+        "keyword": "Scenario",
+        "line": 92,
+        "name": "Admin fills the Dependents details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 94,
+            "name": "the Admin wants to fill the Dependents details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:289"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 981390,
+              "error_message": "locator.click: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:118:66\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:4:12)\n    at Object.empNaviagetTo (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:117:68)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:290:25\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:289:56)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 95,
+            "name": "fills in the employee's Dependents details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:294"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 96,
+            "name": "the Admin enters more than 100 characters in the NameFields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:240"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 97,
+            "name": "the Admin should see the Maximum 100 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:246"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 99,
+            "name": "the Admin choose the other option for Relationship",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:301"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 100,
+            "name": "the Admin should see the another text field for specify name",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:307"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 102,
+            "name": "the Admin enters invalid on Date field",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:312"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "the Admin should see the Date format wrong error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:319"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 105,
+            "name": "the Admin enters valid details in the Dependents details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:324"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 106,
+            "name": "saves the employee Dependents details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:329"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1451249,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewEmployee",
+            "line": 1
+          },
+          {
+            "name": "@DependentsDetails",
+            "line": 91
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-new-employee-and-verify-by-records;admin-fills-the-immigration-details",
+        "keyword": "Scenario",
+        "line": 110,
+        "name": "Admin fills the Immigration Details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 112,
+            "name": "the Admin wants to fill the Immigration details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:336"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3852620,
+              "error_message": "locator.click: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:118:66\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:4:12)\n    at Object.empNaviagetTo (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:117:68)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:337:25\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:336:57)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 113,
+            "name": "fills in the employee's Immigration details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:341"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 115,
+            "name": "the Admin enters more than 30 characters in the SpecificField",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:348"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 116,
+            "name": "the Admin should see the Maximum 30 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:257"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 118,
+            "name": "the Admin enters invalid on Issue Date field",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:353"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 119,
+            "name": "the Admin should see the Date format wrong error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:319"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 121,
+            "name": "the Admin enters the expired date less than issued Date",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:359"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 122,
+            "name": "the Admin should see the Expiry date should be after issued date error messge",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:366"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 124,
+            "name": "the Admin enters more than 250 characters in comments section",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:371"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 125,
+            "name": "the Admin should see the Maximum 250 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:376"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 127,
+            "name": "the Admin enters valid details in the Immigration details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:381"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 128,
+            "name": "saves the employee Immigration details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:386"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1106176,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewEmployee",
+            "line": 1
+          },
+          {
+            "name": "@ImmigrationDetails",
+            "line": 109
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-new-employee-and-verify-by-records;admin-fills-the-job-details",
+        "keyword": "Scenario",
+        "line": 133,
+        "name": "Admin fills the Job details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 135,
+            "name": "the Admin wants to fill the Job details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:393"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1352006,
+              "error_message": "locator.click: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:118:66\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:4:12)\n    at Object.empNaviagetTo (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:117:68)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:394:25\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:393:49)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 136,
+            "name": "fills in the employee's Job details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:398"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 138,
+            "name": "the Admin wants to includes contract details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:413"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "fills the contract date and upload the file",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:418"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 141,
+            "name": "the Admin enters the contract end date less than start Date",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:423"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 142,
+            "name": "the Admin should see the End date should be after start date error messge",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:430"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 144,
+            "name": "the Admin wants to terminate Employment",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:435"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 145,
+            "name": "fill the reason for Termination on the popup message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:442"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 146,
+            "name": "save the termination information",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:449"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 147,
+            "name": "the Admin should see the Termination date with Activation option on Job details page",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:454"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 149,
+            "name": "the Admin enters valid details in the Job details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:460"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 150,
+            "name": "saves the employee Job details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:465"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1319731,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewEmployee",
+            "line": 1
+          },
+          {
+            "name": "@JobDetails",
+            "line": 132
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-new-employee-and-verify-by-records;admin-fills-the-salary-details",
+        "keyword": "Scenario",
+        "line": 197,
+        "name": "Admin fills the Salary details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 156,
+            "name": "the Admin wants to fill the Salary details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:527"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1922007,
+              "error_message": "locator.click: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:118:66\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:4:12)\n    at Object.empNaviagetTo (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:117:68)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:529:25\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:527:52)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 157,
+            "name": "fills in the employee's Salary details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:532"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 158,
+            "name": "the Admin enters more than 100 characters in the Salary Component",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:537"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 159,
+            "name": "the Admin should see the Maximum 100 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:246"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 162,
+            "name": "the Admin choose the 'Grade 1' options",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:542"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 163,
+            "name": "the Admin can choose the currency detail",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:548"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 164,
+            "name": "the Admin should see the salary 'Min: 50000 - Max: 60000'",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:554"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 166,
+            "name": "the Admin enters the Salary Amount more than limitations",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:559"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 167,
+            "name": "the Admin should see the Amount limitation error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:570"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 169,
+            "name": "the Admin enters the Salary Amount more than 1000000000",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:565"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 170,
+            "name": "the Admin should see the salary limitation error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:575"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 172,
+            "name": "the Admin enters sting instead of number",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:580"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 173,
+            "name": "the Admin should see the should be number error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:585"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 175,
+            "name": "the Admin enters more than 250 characters in Comments text area",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:590"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 176,
+            "name": "the Admin should see the Maximum 250 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:376"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 178,
+            "name": "the Admin wants to include the Direct Deposit details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:595"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 179,
+            "name": "the Admin enters more than 100 characters in the AccountFields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:601"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 180,
+            "name": "the Admin should see the Maximum 100 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:246"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 182,
+            "name": "the Admin enters more than 9 characters in Rounting number",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:605"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 183,
+            "name": "the Admin should see the Maximum 9 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:611"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 185,
+            "name": "the Admin choose the other option instead of Accont type",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:616"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 186,
+            "name": "the Admin should see the another text field for specified name",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:623"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 188,
+            "name": "the Admin enters more than 20 characters in Specify name field",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:628"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 189,
+            "name": "the Admin should see the Maximum 20 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:634"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 191,
+            "name": "the Admin enters valid details in the Salary details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:639"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 192,
+            "name": "saves the employee Salary details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:644"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1599053,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewEmployee",
+            "line": 1
+          },
+          {
+            "name": "@SalaryDetails",
+            "line": 153
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-new-employee-and-verify-by-records;admin-fills-the-reporters-details",
+        "keyword": "Scenario",
+        "line": 200,
+        "name": "Admin fills the Reporters Details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 202,
+            "name": "the Admin wants to fill the Reporters details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:472"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2189886,
+              "error_message": "locator.click: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:118:66\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:4:12)\n    at Object.empNaviagetTo (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:117:68)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:473:25\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:472:55)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 203,
+            "name": "fills in the employee's Reporters details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:477"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 205,
+            "name": "the Admin enters the Supervisor name",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:485"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 206,
+            "name": "the Supervisor name doesn't exist",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:491"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 207,
+            "name": "Admin should see the Invalid error message",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 209,
+            "name": "the Admin enters the Subordinate name",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:496"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 210,
+            "name": "the Subordinate name doesn't exist",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:507"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 211,
+            "name": "Admin should see the Invalid error message",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 213,
+            "name": "the Admin enters valid details in the Reporters details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:515"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 214,
+            "name": "saves the employee Reporters details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:520"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1090696,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewEmployee",
+            "line": 1
+          },
+          {
+            "name": "@ReportingToDetails",
+            "line": 199
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "add-new-employee-and-verify-by-records;admin-fills-the-qualification-details",
+        "keyword": "Scenario",
+        "line": 218,
+        "name": "Admin fills the Qualification Details",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 220,
+            "name": "the Admin wants to fill the work experience details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:651"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1876907,
+              "error_message": "locator.click: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:118:66\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:4:12)\n    at Object.empNaviagetTo (/home/madhubalan/Desktop/TestAutomation/features/page_action/employeeInfo.ts:117:68)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:652:25\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/addEmployee.ts:651:61)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 221,
+            "name": "fills in the employee's Work experience details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:658"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 222,
+            "name": "the Admin enters more than 100 characters in the JobFields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:663"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 223,
+            "name": "the Admin should see the Maximum 100 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:246"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 225,
+            "name": "the Admin enters the To date less than From Date",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:669"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 226,
+            "name": "the Admin should see the To date should be after From date error messge",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:676"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 228,
+            "name": "the Admin enters more than 200 characters in comments section",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:681"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 229,
+            "name": "the Admin should see the Maximum 200 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:686"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 231,
+            "name": "the Admin enters valid details in the Work experience details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:691"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 232,
+            "name": "saves the employee Work experience details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:696"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 233,
+            "name": "the Admin should see the work experience information in the Records table",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:701"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 235,
+            "name": "the Admin wants to fill the Education details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:708"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 236,
+            "name": "fills in the employee's Education details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:713"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 238,
+            "name": "the Admin enters more than 100 characters in the InstitutionFields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:717"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 239,
+            "name": "the Admin should see the Maximum 100 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:246"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 241,
+            "name": "the Admin enters the years more than 4 characters in years",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:723"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 242,
+            "name": "the Admin should see the Maximum 4 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:728"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 244,
+            "name": "the Admin enters sting instead of number in years",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:733"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 245,
+            "name": "the Admin should see the should be number error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:585"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 247,
+            "name": "the Admin enters the years more than 25 characters in CGPA and Score",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:738"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 248,
+            "name": "the Admin should see the Maximum 25 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:186"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 250,
+            "name": "the Admin enters the end date less than start Date",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:743"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 251,
+            "name": "the Admin should see the End date should be after start date error messge",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:430"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 253,
+            "name": "the Admin enters valid details in the Education details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:750"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 254,
+            "name": "saves the employee Education details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:755"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 255,
+            "name": "the Admin should see the Education information in the Records table",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:762"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 257,
+            "name": "the Admin wants to fill the Skill details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:769"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 258,
+            "name": "fills in the employee's Skill details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:774"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 260,
+            "name": "the Admin enters the years more than 100 in years of Experience",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:779"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 261,
+            "name": "the Admin should see the Maximum 100 years limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:784"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 263,
+            "name": "the Admin enters more than 100 characters in comments section",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:789"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 264,
+            "name": "the Admin should see the Maximum 100 characters limit error message",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:246"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 266,
+            "name": "the Admin enters valid details in the skill details fields",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:794"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 267,
+            "name": "saves the employee skill details",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:799"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 268,
+            "name": "the Admin should see the Skill information in the Records table",
+            "match": {
+              "location": "features/step_definition/addEmployee.ts:804"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 3915897,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewEmployee",
+            "line": 1
+          },
+          {
+            "name": "@QualificationDetails",
+            "line": 217
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-new-employee-and-verify-by-records",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Add new employee and verify by records",
+    "tags": [
+      {
+        "name": "@AddNewEmployee",
+        "line": 1
+      }
+    ],
+    "uri": "features/features/addEmployee.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-the-admin-access;admin-can-add,edit-and-delete-the-new-username",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Admin can add,edit and delete the new username",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user Navigates the Employee Dashboard Page",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:7"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3047066,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:19:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:4:12)\n    at empLoginLocator (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:18:32)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:8:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:7:53)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Admin is navigates to admin Page",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:5"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the Admin can try add the username",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the Admin try to assign role and new username",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the admin enter the Password",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:28"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "validate the confirm password",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:32"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Admin can confirmed the assigned role on Record table",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "admin want to edit the user details",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:44"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Save the user information",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:51"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "updated the information to the Record table",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:55"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "admin want to delete the username",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:60"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "admin should not see the deleted username on the record table",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:65"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1034821,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AdminPage",
+            "line": 1
+          },
+          {
+            "name": "@AdminAccess",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-admin-access;invalid-user,-password-and-exist-user",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Invalid user, password and exist user",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the Admin can try add the username",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:9"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1619534,
+              "error_message": "locator.click: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/adminAccess.ts:10:67\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/adminAccess.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/adminAccess.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/adminAccess.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/adminAccess.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/adminAccess.ts:9:44)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "Admin can not enter the password less than 7",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:73"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Admin should see the error message",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:80"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "Admin can not enter the password without any number",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:84"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Admin should see the password must error message",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:90"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 33,
+            "name": "Admin enter the password and confirm password is not same",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:95"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Admin should see the password must match error message",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:101"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "Admin can not enter the name which is not be there",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:106"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "Admin should see the Invalid error message",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:113"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 39,
+            "name": "Admin can not enter the name which is already exist",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:118"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Admin should see the already exist error message",
+            "match": {
+              "location": "features/step_definition/adminAccess.ts:124"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1009233,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AdminPage",
+            "line": 1
+          },
+          {
+            "name": "@ExistUserError",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-the-admin-access",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Validate the Admin Access",
+    "tags": [
+      {
+        "name": "@AdminPage",
+        "line": 1
+      }
+    ],
+    "uri": "features/features/adminAccess.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-the-employee-leave-report;employee-as-user-apply-leave",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Employee as user Apply leave",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user Navigates the Employee Dashboard Page",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:7"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1329495,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:19:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:4:12)\n    at empLoginLocator (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:18:32)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:8:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:7:53)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "the user try to Apply the leave",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user select the Leave type",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user choose the Leave date",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "user should view the Duration label",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:30"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user select the Duration",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user can Apply the Leave",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:41"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should see the Leave details on Record Table",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 2377594,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EmployeeLeaveReport",
+            "line": 1
+          },
+          {
+            "name": "@ApplyLeave",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-employee-leave-report;employee-as-user-apply-leave-with-invalid-date",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Employee as user Apply leave with invalid date",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "user is on Dashboard Page",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:56"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2663412,
+              "error_message": "locator.click: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:57:65\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:56:36)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user try to Apply the leave",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "the user select the Leave type",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "the user enter invalid Date",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:60"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the user should see the Error message",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:66"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1550152,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EmployeeLeaveReport",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validate-the-employee-leave-report;edit-duration-time",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Edit Duration time",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "user Navigates the Employee Dashboard Page",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:7"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1216601,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:19:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:4:12)\n    at empLoginLocator (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:18:32)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:8:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/employeeLeave.ts:7:53)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "user is on Leave Page",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:77"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "the user select the Leave type",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:16"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "the user choose the Leave date",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "user select specify time",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:118"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "user should see the Time edit options",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:123"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "user enter the time over the Workshift time",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:129"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "user should see the overtime error message",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:134"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "user enter the invalid time period",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:138"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "user should see the FromTo time error message",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:145"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "user Edit the Time period",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:152"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "user should confirm the Duration hours",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:158"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "user add the comment on the comment box",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:164"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "user navigates the My leave Module",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:171"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "user should confirmed the leave is Added to the Record table Successfully",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:176"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 60,
+            "name": "user want to cancel the applied leave",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:181"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "the applied leave should be cancelled",
+            "match": {
+              "location": "features/step_definition/employeeLeave.ts:185"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1017202,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@EmployeeLeaveReport",
+            "line": 1
+          },
+          {
+            "name": "@EditTime",
+            "line": 38
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-the-employee-leave-report",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Validate the Employee Leave Report",
+    "tags": [
+      {
+        "name": "@EmployeeLeaveReport",
+        "line": 1
+      }
+    ],
+    "uri": "features/features/employeeLeaveValidation.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "validate-the-iframe-locator;check-the-iframe-locators",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Check the Iframe locators",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on HomePage",
+            "match": {
+              "location": "features/step_definition/shoppingCart.Steps.ts:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2498339,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user click the iframe link",
+            "match": {
+              "location": "features/step_definition/iframe.ts:6"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should validate the iframe locator",
+            "match": {
+              "location": "features/step_definition/iframe.ts:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1079594,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@IframeLocator",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validate-the-iframe-locator",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Validate the Iframe locator",
+    "tags": [
+      {
+        "name": "@IframeLocator",
+        "line": 1
+      }
+    ],
+    "uri": "features/features/iframe.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "validate-the-testing-website;validate-the-login-form",
         "keyword": "Scenario",
         "line": 13,
@@ -19,8 +3686,8 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2635406330,
-              "error_message": "page.goto: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - navigating to \"https://qa-practice.netlify.app/auth_ecommerce\", waiting until \"load\"\u001b[22m\n\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
+              "duration": 1020084,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
             }
           },
           {
@@ -80,7 +3747,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 3669746,
+              "duration": 2344463,
               "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
             }
           }
@@ -110,7 +3777,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2785813,
+              "duration": 1745901,
               "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
             }
           },
@@ -171,7 +3838,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 3321708,
+              "duration": 1407442,
               "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
             }
           }
@@ -201,7 +3868,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2012409,
+              "duration": 1011065,
               "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
             }
           },
@@ -262,7 +3929,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 5244424,
+              "duration": 1010569,
               "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
             }
           }
@@ -292,7 +3959,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 1298634,
+              "duration": 1272461,
               "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
             }
           },
@@ -340,7 +4007,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 1271750,
+              "duration": 884100,
               "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
             }
           }
@@ -374,7 +4041,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 3834457,
+              "duration": 9859174,
               "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:24:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:4:12)\n    at formValidation (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:20:31)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:69:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:68:39)"
             }
           },
@@ -448,7 +4115,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 2462271,
+              "duration": 920965,
               "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
             }
           }
@@ -482,7 +4149,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 3767406,
+              "duration": 1567848,
               "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:24:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:4:12)\n    at formValidation (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:20:31)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:69:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:68:39)"
             }
           },
@@ -543,7 +4210,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 1399062,
+              "duration": 679169,
               "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
             }
           }
@@ -577,7 +4244,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2136870,
+              "duration": 703470,
               "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:22:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:21:34)"
             }
           },
@@ -638,7 +4305,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 1896371,
+              "duration": 634503,
               "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
             }
           }
@@ -668,7 +4335,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 1834333,
+              "duration": 1168750,
               "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:24:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:4:12)\n    at formValidation (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:20:31)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:69:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:68:39)"
             }
           },
@@ -703,7 +4370,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 1146634,
+              "duration": 2713702,
               "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
             }
           }
@@ -737,7 +4404,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 2083046,
+              "duration": 1573832,
               "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:24:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:4:12)\n    at formValidation (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:20:31)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:69:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:68:39)"
             }
           },
@@ -798,7 +4465,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 2457862,
+              "duration": 842772,
               "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
             }
           }
@@ -832,7 +4499,7 @@
             },
             "result": {
               "status": "failed",
-              "duration": 3341189,
+              "duration": 892686,
               "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:24:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:4:12)\n    at formValidation (/home/madhubalan/Desktop/TestAutomation/features/page_action/checkout.ts:20:31)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:69:23\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/shoppingCart.Steps.ts:68:39)"
             }
           },
@@ -867,7 +4534,7 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 1506611,
+              "duration": 782079,
               "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
             }
           }
@@ -896,5 +4563,530 @@
       }
     ],
     "uri": "features/features/shoppingCart.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "check-the-login-validatation;user-signup-into-the-webpage",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "User signup into the webpage",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on main page",
+            "match": {
+              "location": "features/step_definition/loginSteps.ts:17"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1306538,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/loginSteps.ts:18:26\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/loginSteps.ts:66:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/loginSteps.ts:47:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/loginSteps.ts:41:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/loginSteps.ts:37:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/loginSteps.ts:17:31)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user click on the signup button",
+            "match": {
+              "location": "features/step_definition/loginSteps.ts:22"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user enter the firstName and lastName",
+            "match": {
+              "location": "features/step_definition/loginSteps.ts:26"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user click the submit button",
+            "match": {
+              "location": "features/step_definition/loginSteps.ts:33"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Login registration should be success",
+            "match": {
+              "location": "features/step_definition/loginSteps.ts:38"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1324388,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation",
+            "line": 1
+          },
+          {
+            "name": "@Signup",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-the-login-validatation;click-the-all-navigation-and-verify",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "click the All navigation and verify",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on HomePage",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1196483,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:6:30\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:4:12)\n    at BrowserLaunch (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:5:30)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:9:31\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:30)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user click 'SCHEMAS' link",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user verify the content on 'My Schemas' page",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 801086,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation",
+            "line": 1
+          },
+          {
+            "name": "@Navigations",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-the-login-validatation;click-the-all-navigation-and-verify",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "click the All navigation and verify",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on HomePage",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3018560,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:6:30\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:4:12)\n    at BrowserLaunch (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:5:30)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:9:31\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:30)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user click 'DATASET' link",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user verify the content on 'My Datasets' page",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 1703688,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation",
+            "line": 1
+          },
+          {
+            "name": "@Navigations",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-the-login-validatation;click-the-all-navigation-and-verify",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "click the All navigation and verify",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on HomePage",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1129313,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:6:30\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:4:12)\n    at BrowserLaunch (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:5:30)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:9:31\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:30)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user click 'APIS' link",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user verify the content on 'Mock APIs' page",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 798838,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation",
+            "line": 1
+          },
+          {
+            "name": "@Navigations",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-the-login-validatation;click-the-all-navigation-and-verify",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "click the All navigation and verify",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on HomePage",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 852304,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:6:30\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:4:12)\n    at BrowserLaunch (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:5:30)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:9:31\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:30)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user click 'SCENARIOS' link",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user verify the content on 'My Scenarios' page",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 659233,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation",
+            "line": 1
+          },
+          {
+            "name": "@Navigations",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-the-login-validatation;click-the-all-navigation-and-verify",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "click the All navigation and verify",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on HomePage",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 853511,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:6:30\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:4:12)\n    at BrowserLaunch (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:5:30)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:9:31\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:30)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user click 'PROJECTS' link",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user verify the content on 'My Projects' page",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 777894,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation",
+            "line": 1
+          },
+          {
+            "name": "@Navigations",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "check-the-login-validatation;click-the-all-navigation-and-verify",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "click the All navigation and verify",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on HomePage",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2642678,
+              "error_message": "page.goto: Target page, context or browser has been closed\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:6:30\n    at step (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:4:12)\n    at BrowserLaunch (/home/madhubalan/Desktop/TestAutomation/features/page_action/loginTest.ts:5:30)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:9:31\n    at step (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/step_definition/navigationSteps.ts:8:30)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user click 'FUNCTIONS' link",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user verify the content on 'My Functions' page",
+            "match": {
+              "location": "features/step_definition/navigationSteps.ts:17"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 3782442,
+              "error_message": "page.waitForTimeout: Target page, context or browser has been closed\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:24:28)\n    at step (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:33:23)\n    at Object.next (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:14:53)\n    at /home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:8:71\n    at __awaiter (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:4:12)\n    at World.<anonymous> (/home/madhubalan/Desktop/TestAutomation/features/Support/hooks/hook.ts:75:12)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Navigation",
+            "line": 1
+          },
+          {
+            "name": "@Navigations",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "check-the-login-validatation",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Check the Login validatation",
+    "tags": [
+      {
+        "name": "@Navigation",
+        "line": 1
+      }
+    ],
+    "uri": "features/features/test.feature"
   }
 ]

@@ -4,11 +4,6 @@ import { expect } from "playwright/test";
 
 //=================================================== COMMON LOCATORS =======================================================================================================
 
-// const textbox = pageFixture.page.locator('form').getByRole('textbox');
-//const dateField = pageFixture.page.getByPlaceholder('yyyy-dd-mm');
-// const selectField = pageFixture.page.getByText('-- Select --');
-// const textareaField = pageFixture.page.getByRole('textbox');
-// const addButtonField = pageFixture.page.getByRole('button', { name: ' Add' });
 
 export const saveButton = async () => {
     await pageFixture.page.getByRole('button', { name: 'Save' }).click()

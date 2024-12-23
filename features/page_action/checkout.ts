@@ -7,10 +7,10 @@ export interface Checkout{
   contry: string
 }
 export const checkoutService = async (checkout: Checkout) => {
-    await pageFixture.page.getByRole('textbox',{ name: Test.userAddress.phoneNumberLocator}).fill(checkout.phNumber);
-await pageFixture.page.getByPlaceholder(Test.userAddress.addressLocator).fill(checkout.address);
-await pageFixture.page.getByPlaceholder(Test.userAddress.cityLocator).fill(checkout.city);
-await pageFixture.page.selectOption(Test.userAddress.contryLocator,{
+  await pageFixture.page.getByRole('textbox',{ name: Test.userAddress.phoneNumberLocator}).fill(checkout.phNumber);
+  await pageFixture.page.getByPlaceholder(Test.userAddress.addressLocator).fill(checkout.address);
+  await pageFixture.page.getByPlaceholder(Test.userAddress.cityLocator).fill(checkout.city);
+  await pageFixture.page.selectOption(Test.userAddress.contryLocator,{
   label: checkout.contry,
   value: checkout.contry
 })
