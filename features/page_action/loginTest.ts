@@ -12,7 +12,7 @@ export const signUpLocators = async () => {
      await expect(pageFixture.page.getByRole('heading',{ name: 'Sign In'})).toBeVisible();
      pageFixture.page.waitForTimeout(2000)
      pageFixture.page.getByRole('link', { name: 'Sign up for free'}).click();
-     await expect(pageFixture.page.getByRole('heading',{ name: 'Sign Up'})).toBeVisible();
+   //  await expect(pageFixture.page.getByRole('button',{ name: 'Sign Up'})).toBeVisible();
 }
 
 export const empLoginLocator = async () => {

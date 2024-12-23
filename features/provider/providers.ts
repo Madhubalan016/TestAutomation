@@ -11,7 +11,7 @@ export const webPage = {
     empLoginPageUrl: 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'
 }
 export const usercredentials = {
-    emailId: '//div[@class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"]/input[@name="email"]',
+    emailId: '//div[@class="MuiInputBase-root MuiOutlinedInput-root Mui-error Mui-error Mui-focused Mui-focused MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"]/input[@name="email"]',
     password: '//div[@class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"]/input[@name="password"]',
     confirmPassword: '//div[@class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"]/input[@name="confirm_password"]',
   }

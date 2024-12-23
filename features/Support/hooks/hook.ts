@@ -1,5 +1,5 @@
 import { After, AfterAll, BeforeAll, setDefaultTimeout} from "@cucumber/cucumber";
-import { Browser, chromium, Page} from "playwright/test";
+import { Browser, chromium, firefox, Page} from "playwright/test";
 import { pageFixture } from "../../provider/providers";
  setDefaultTimeout(30000);
 let browser: Browser;
